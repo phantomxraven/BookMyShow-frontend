@@ -9,13 +9,13 @@ const Loader = () => {
         height="80"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 80 80"
-        fill="#87CEFA" // Set pale blue color
+        fill="#87CEFA" 
       >
         <circle cx="40" cy="10" r="8">
           <animate
             attributeName="cy"
             begin="0s"
-            dur="1.5s" // Adjust the duration
+            dur="1.5s" 
             values="10;40;10"
             calcMode="linear"
             repeatCount="indefinite"

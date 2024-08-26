@@ -1,4 +1,3 @@
-// import statements for the necessary dependencies and stylesheets
 import React, { useContext, useEffect, useState } from "react";
 import "../styles/bookingDetails.css";
 import { seats } from "../data";
@@ -6,13 +5,13 @@ import Loader from "./loader";
 import BsContext from "../Context/BsContext";
 
 const LastBookingDetail = (props) => {
-  // Getting movie and change movie components from the context.
+  
   const [lastBooking, setLastBooking] = useState("");
   const [loader, setLoader] = useState(false);
   const context = useContext(BsContext);
   const { lastBookingDatas } = context;
 
-  //getLastRecord function is an asynchronous function that fetches data from a specific URL. It sets the loader state to true initially, makes the API call using fetch, and then updates the lastBooking state with the received data. If an error occurs during the API call, it is logged to the console.
+  
   const getLastRecord = async () => {
     try {
       setLoader(true);
@@ -30,12 +29,12 @@ const LastBookingDetail = (props) => {
     }
   };
 
-  //useEffect hook is used to call the getLastRecord function when the lastBookingDatas changes. This ensures that the API is called whenever there is a change in the lastBookingDatas value.
+  
   useEffect(() => {
-    getLastRecord(); //calling get last booking api
+    getLastRecord(); 
   }, [lastBookingDatas]);
 
-  //JSX code that defines the component's UI
+  
   return (
     <div className="last_booking_details_container_main">
       <h2 className="last_booking_details_header">Last Booking Details:</h2>
