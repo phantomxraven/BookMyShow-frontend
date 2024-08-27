@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App]
 
   Project Summary: Book My Show App
 
-Our team of three developers successfully created a web application called Book My Show, which allows users to select movie names, choose a slot, and book seats for their preferred showtimes. The app also provides users with the option to view their previous bookings. The project utilized a combination of front-end and back-end technologies to deliver a seamless user experience.
+Our team of two successfully created a web application called Book My Show, which allows users to select movie names, choose a slot, and book seats for their preferred showtimes. The app also provides users with the option to view their previous bookings. The project utilized a combination of front-end and back-end technologies to deliver a seamless user experience.
 
 Front-End Technologies:
 - React: We chose React as our front-end framework due to its component-based architecture, which enabled us to create reusable UI elements and efficiently manage state throughout the application.
@@ -30,7 +30,6 @@ Overall, our team successfully implemented a Book My Show app that allows users 
 ### `LINKS` 
 
 1. Deployed Link --> https://book-my-show-ten-azure.vercel.app/
-
 
 
 ## Available Scripts
